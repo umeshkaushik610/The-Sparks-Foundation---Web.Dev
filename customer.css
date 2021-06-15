@@ -1,0 +1,92 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+/* navbar starts here */
+#logo{
+    position: relative;
+    left: -28%;
+}
+
+#logo img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 0px;
+}
+
+#logo a{
+    text-decoration: none;
+    color: wheat;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    color: wheat;
+    background-color: black;
+    justify-content: center;
+}
+
+#menu{
+    padding: 10px;
+    list-style: none;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    position: relative;
+    left: 30%;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: wheat;
+
+}
+
+#menu li{
+    margin: 0px;
+    padding: 10px;
+    font-size: 17px;
+}
+/* navbar ends here */
+
+/* the main section starts here */
+#main
+{   
+    position: relative;
+    top: -16px;
+	text-align: center;
+    background-color:darkgray;
+}
+.my-info{
+    padding: rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgb(78, 153, 223)!important;
+    color: #fff!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: rgb(67, 83, 230)!important;
+}
+/* main section ends here */
+
+/* footer starts here */
+#footer{
+    position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: wheat;
+  text-align: center;
+}
+/* footer ends here */
