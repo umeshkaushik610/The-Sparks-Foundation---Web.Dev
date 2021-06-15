@@ -1,0 +1,138 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+/* navbar starts here */
+/* logo starts here */
+
+#logo{
+    position: relative;
+    left: -28%;
+}
+
+#logo img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 18px;
+}
+
+#logo a{
+    text-decoration: none;
+    color: wheat;
+}
+
+/* logo ends here */
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    color: wheat;
+    background-color: black;
+    justify-content: center;
+}
+
+#menu{
+    padding: 10px;
+    list-style: none;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    position: relative;
+    left: 4%;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: wheat;
+
+}
+
+#menu li{
+    margin: 0px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+/* navbar ends here */
+
+/* main section starts here */
+/* upper section starts here */
+
+#frontSection{
+    height: 388px;
+    background-color: darkgrey;
+    padding-top: 10px;
+}
+
+#text{
+    position: relative;
+    left: 20%;
+    top: -3%;
+    width: 25%;
+    height: 300px;
+}
+
+#hoto{
+    width: 40%;
+    position: relative;
+    left: 100%;
+    height: 300px;
+    position: relative;
+    top: -397px;
+}
+/* upper section ends here */
+/* bottom section starts here */
+#transferSection{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    top: 108px;
+    position: relative;
+}
+
+.card{
+    height: 200px;
+    width: 31%;
+}
+
+.card-box{
+    height: 220px;
+}
+
+.card-img{
+    height: 224px;
+}
+
+.btn{
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    border: blue solid 1px;
+    padding: 5px;
+    color: white;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+/* bottom section ends here */
+/* main section ends here */
+
+
+/* footer section starts here*/
+#footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: wheat;
+  text-align: center;
+}
+
+/* footer section ends here */
